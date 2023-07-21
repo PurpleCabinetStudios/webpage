@@ -1,12 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
 ---
 
-<Layout title="Welcome to Astro.">
-	<header>
-		<h1 class="text-6xl">PurpleCabinetStudios</h1>
-	</header>
-	<main>
-		WIP
+<Layout title="PurpleCabinetStudios - Homepage">
+	<main class="flex flex-col justify-center items-center">
+		<div class="max-w-prose text-left m-4">
+			<h2 class="text-5xl md:text-6xl mt-7 text-center font-bold">About us</h2>
+			<p class="text-xl my-3">
+				We are a <strong class="font-bold text-violet-400">indie game studio</strong> based in Kolhapur, India
+			</p>
+			<p class="text-xl my-3">
+				We're currently working on <a href="/contamination" class="font-display text-3xl text-emerald-300">Contamination</a>
+			</p>
+		</div>
 	</main>
 </Layout>
