@@ -1,12 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @font-face {
     font-family: "monogram";
-    src: url("fonts/monogram-extended.ttf");
+    src: url("/fonts/monogram-extended.ttf");
     font-display: swap;
-}
-
-@layer base {
 }
