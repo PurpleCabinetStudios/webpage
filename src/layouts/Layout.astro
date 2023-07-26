@@ -16,16 +16,16 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="flex flex-col h-screen text-center bg-slate-800 text-violet-200">
+  <body class="flex flex-col min-h-screen text-center bg-gray-950 text-slate-100">
     <header>
       <a href="/">
         <h1
-          class="text-7xl md:text-9xl text-violet-400 font-display drop-shadow-lg"
+          class="text-7xl md:text-9xl text-blue-300 font-display drop-shadow-lg"
         >
           Lunar<wbr />Scale<wbr />Studios
         </h1>
       </a>
-      <p class="text-xl text-violet-300 font-bold">An indie games studio</p>
+      <p class="text-xl text-blue-300 font-bold">An indie games studio</p>
     </header>
     <div class="flex-grow">
       <slot />
